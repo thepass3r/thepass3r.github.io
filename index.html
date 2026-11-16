@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oleksandr Zarutskyi · AI Pipeline Engineer</title>
+<meta name="description" content="Local generative video pipelines in Python. Three YouTube channels, a social-first store and an autonomous agent, all running on one consumer GPU.">
+<meta property="og:title" content="Oleksandr Zarutskyi · AI Pipeline Engineer">
+<meta property="og:description" content="AI video pipelines on one GPU: three YouTube channels, a store and an agent.">
+<meta property="og:image" content="https://thepass3r.github.io/assets/img/og.jpg">
+<meta property="og:url" content="https://thepass3r.github.io/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#0f0e0e">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+<link rel="stylesheet" href="styles.css?v=9">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <a class="nav__name" href="#top">Oleksandr Zarutskyi</a>
+  <nav class="nav__links" aria-label="Sections">
+    <a href="#services">Services</a>
+    <a href="#channels">Channels</a>
+    <a href="#pipeline">Pipeline</a>
+    <a href="#miks">Agent</a>
+    <a href="#vibe">Vibe coding</a>
+    <a href="#store">Store</a>
+  </nav>
+  <a class="btn btn--small" href="CV_Oleksandr_Zarutskyi_EN.pdf" download>Download CV</a>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero__copy">
+    <p class="eyebrow" data-hero>Generative AI Pipeline Engineer</p>
+    <h1 class="hero__title" data-hero>
+      <span class="hero__line">Local AI pipelines</span>
+      <span class="hero__line">for <span class="rot" aria-hidden="true"><span class="rot__w is-on">documentaries.</span><span class="rot__w">music channels.</span><span class="rot__w">online stores.</span><span class="rot__w">AI characters.</span></span><span class="sr">documentaries, music channels, online stores and AI characters.</span></span>
+    </h1>
+    <p class="hero__sub" data-hero>Script, image, voice, video, publish. I build the whole chain in Python and run it on one GPU, every day.</p>
+    <div class="hero__ctas" data-hero>
+      <a class="btn" href="#services"><i class="ph ph-arrow-down"></i>What I can do</a>
+      <a class="btn btn--ghost" href="https://t.me/th3passer" target="_blank" rel="noopener"><i class="ph ph-telegram-logo"></i>Message on Telegram</a>
+    </div>
+  </div>
+  <div class="mosaic" aria-hidden="true">
+    <figure class="tile tile--kira" data-hero-media data-speed="-8"><video src="assets/kira_outfit2.mp4" poster="assets/img/kira_outfit2.jpg" autoplay muted loop playsinline></video></figure>
+    <figure class="tile tile--mix" data-hero-media data-speed="6"><video src="assets/loop_mix07.mp4" poster="assets/img/loop_mix07.jpg" autoplay muted loop playsinline></video></figure>
+    <figure class="tile tile--hist" data-hero-media data-speed="12"><img src="assets/img/ill_hearth.webp" alt="" width="1280" height="725"></figure>
+    <figure class="tile tile--book" data-hero-media data-speed="-4"><img src="assets/img/kt_book.webp" alt="" width="900" height="1125"></figure>
+  </div>
+</section>
+
+<!-- NUMBERS -->
+<section class="stats" aria-label="Key numbers">
+  <div class="stat"><span class="stat__n" data-count="33">33</span><span class="stat__l">videos published in four weeks</span></div>
+  <div class="stat"><span class="stat__n" data-count="115" data-suffix="k">115k</span><span class="stat__l">lines of Python in my agent</span></div>
+  <div class="stat"><span class="stat__n" data-count="9316" data-format="thousands">9,316</span><span class="stat__l">products in the store I built</span></div>
+  <div class="stat"><span class="stat__n" data-count="16" data-suffix=" GB">16 GB</span><span class="stat__l">of VRAM for all of it</span></div>
+</section>
+
+<!-- SERVICES -->
+<section class="section services" id="services">
+  <h2 class="h2 reveal">Problems I take off your plate.</h2>
+  <div class="probs">
+    <article class="prob reveal"><i class="ph ph-flow-arrow"></i><h3>Content at volume, still on brand</h3><p>A pipeline from script to published video: research, images, voice, music, edit, upload. Ten videos a week from one queue.</p></article>
+    <article class="prob reveal"><i class="ph ph-user-focus"></i><h3>A character who stays the same</h3><p>Fixed face, body, room and props across photos and video, with references, LoRA training and reference-driven video models.</p></article>
+    <article class="prob reveal"><i class="ph ph-package"></i><h3>Product visuals from a packshot</h3><p>Scenes generated around the real product, with the label and shape kept intact, checked frame by frame.</p></article>
+    <article class="prob reveal"><i class="ph ph-graph"></i><h3>ComfyUI workflows that run unattended</h3><p>Graphs driven from Python, a GPU queue, retries, and gates that reject bad frames before a human sees them.</p></article>
+    <article class="prob reveal"><i class="ph ph-robot"></i><h3>Local LLM agents and tool calling</h3><p>Agents on Ollama models with tool routing, guardrails and benchmarks, so a cheap model still gets the job done.</p></article>
+    <article class="prob reveal"><i class="ph ph-piggy-bank"></i><h3>Off the cloud bill</h3><p>Everything above runs on a consumer card: no per-image fees, no client material leaving the machine.</p></article>
+  </div>
+  <div class="stack reveal">
+    <div class="stack__g"><span class="stack__k">Generation</span><p class="chips"><span>ComfyUI</span><span>Z-Image</span><span>Krea 2</span><span>Qwen-Image Edit</span><span>MiniMax H3</span><span>LTX Video</span><span>LoRA training</span><span>YuE music</span><span>TTS and voice cloning</span><span>Whisper</span></p></div>
+    <div class="stack__g"><span class="stack__k">Code</span><p class="chips"><span>Python</span><span>FastAPI</span><span>Flask</span><span>aiogram 3</span><span>SQLAlchemy</span><span>Playwright</span><span>ffmpeg</span><span>pytest</span><span>Electron</span></p></div>
+    <div class="stack__g"><span class="stack__k">LLM</span><p class="chips"><span>Ollama</span><span>gemma4</span><span>function calling</span><span>RAG on Chroma</span><span>evals and benchmarks</span><span>Claude Code</span></p></div>
+    <div class="stack__g"><span class="stack__k">Ops and APIs</span><p class="chips"><span>Linux</span><span>Oracle Cloud</span><span>systemd</span><span>Caddy</span><span>GitHub</span><span>YouTube Data API</span><span>Meta Graph API</span><span>Telegram Bot API</span></p></div>
+    <div class="stack__g"><span class="stack__k">Craft</span><p class="chips"><span>After Effects</span><span>Premiere Pro</span><span>Photoshop</span><span>Figma</span><span>ten years of motion and video</span></p></div>
+  </div>
+</section>
+
+<!-- CHANNELS -->
+<section class="section" id="channels">
+  <h2 class="h2 reveal">Three channels, one goal: monetisation.</h2>
+  <p class="lead reveal">An experiment I run in public. Niches picked from data, a pipeline built for each, decisions taken from YouTube Analytics. The Partner Program threshold is not reached yet.</p>
+
+  <div class="bento">
+    <article class="cell cell--ages reveal">
+      <button class="yt" data-yt="KQFHklqF8AU" aria-label="Play: What Did Medieval Peasants Actually Do All Day?">
+        <img src="assets/img/hist_01.webp" alt="Cover: They slept with cows" loading="lazy" decoding="async" width="960" height="540">
+        <span class="yt__play"><i class="ph ph-play"></i></span>
+      </button>
+      <div class="cell__body">
+        <div class="chan"><img src="assets/img/av_ages.webp" alt="" width="40" height="40"><div><strong>Ages Lived</strong><span>History documentaries</span></div></div>
+        <p>Seven films of 15 to 23 minutes about ordinary life in the past. Script from checked sources, flat illustrated style, my own fact gate.</p>
+      </div>
+    </article>
+
+    <article class="cell cell--sidea reveal">
+      <video src="assets/loop_mix03.mp4" poster="assets/img/loop_mix03.jpg" autoplay muted loop playsinline aria-hidden="true"></video>
+      <div class="cell__overlay">
+        <div class="chan"><img src="assets/img/av_sidea.webp" alt="" width="40" height="40"><div><strong>Side A Nights</strong><span>Sad deep house mixes</span></div></div>
+        <p>Eight mixes of 36 to 60 minutes. Every song written, sung and mastered by models, every cover a seamless animated loop.</p>
+      </div>
+    </article>
+
+    <article class="cell cell--covers reveal">
+      <div class="covers" data-covers>
+        <img src="assets/img/hist_07.webp" alt="Cover: It wasn't white" loading="lazy" decoding="async">
+        <img src="assets/img/hist_04.webp" alt="Cover: The night Rome burned" loading="lazy" decoding="async">
+        <img src="assets/img/hist_03.webp" alt="Cover: First strike in history" loading="lazy" decoding="async">
+        <img src="assets/img/hist_06.webp" alt="Cover: Not warriors" loading="lazy" decoding="async">
+      </div>
+    </article>
+
+    <article class="cell cell--note reveal">
+      <i class="ph ph-ghost"></i>
+      <p><strong>Plus 18 horror shorts</strong> on a third channel. Weekly output is about ten videos, produced by the same queue on the same card.</p>
+    </article>
+  </div>
+</section>
+
+<!-- PIPELINE -->
+<section class="pipe" id="pipeline">
+  <div class="pipe__pin">
+    <div class="pipe__head">
+      <h2 class="h2">One episode, eight commands.</h2>
+      <p class="lead">How <em>What Did Medieval Peasants Actually Do All Day?</em> was made. Every number below comes from that run's logs.</p>
+    </div>
+    <div class="pipe__track">
+      <article class="step">
+        <span class="step__k">research</span>
+        <i class="ph ph-magnifying-glass step__i" aria-hidden="true"></i>
+        <h3>12 sources, one myth caught</h3>
+        <p>My agent collects facts with citations. A gate flags weak claims before the script: <q>they drank ale because water was unsafe</q> was stopped here.</p>
+      </article>
+      <article class="step">
+        <span class="step__k">script</span>
+        <i class="ph ph-pen-nib step__i" aria-hidden="true"></i>
+        <h3>4,287 words, 15 chapters</h3>
+        <p>Narration written chapter by chapter. Paragraphs become the beats the storyboard splits into scenes.</p>
+      </article>
+      <article class="step step--code">
+        <span class="step__k">storyboard</span>
+        <h3>131 scenes as data</h3>
+<pre><code>{
+  "id": 10,
+  "chapter": "Before dawn",
+  "cast": ["MOTHER"],
+  "subject": "kneeling by the hearth,
+    spreading ash over embers",
+  "time_of_day": "night",
+  "seconds": 12.0
+}</code></pre>
+      </article>
+      <article class="step step--img">
+        <img src="assets/img/ill_hearth.webp" alt="Scene 10: a mother covers the embers for the night" loading="lazy" decoding="async">
+        <span class="step__k">illustrate</span>
+        <h3>131 frames, about 23 s each</h3>
+        <p>Z-Image Turbo with a flat style LoRA, the same characters in every scene.</p>
+      </article>
+      <article class="step">
+        <span class="step__k">narrate</span>
+        <i class="ph ph-waveform step__i" aria-hidden="true"></i>
+        <h3>Word error 1.6 to 4.3%</h3>
+        <p>Each chapter is voiced, transcribed back and compared with the script. A chapter above the limit is redone automatically.</p>
+      </article>
+      <article class="step">
+        <span class="step__k">score</span>
+        <i class="ph ph-music-notes step__i" aria-hidden="true"></i>
+        <h3>Music with zero words</h3>
+        <p>An instrumental is generated per episode. A check rejects any take where the model started singing.</p>
+      </article>
+      <article class="step">
+        <span class="step__k">edit</span>
+        <i class="ph ph-film-strip step__i" aria-hidden="true"></i>
+        <h3>23.4 min at -14.1 LUFS</h3>
+        <p>Clips, subtitles, chapters and loudness assembled by code. Items left for a human to review: zero.</p>
+      </article>
+      <article class="step step--img">
+        <img src="assets/img/hist_01.webp" alt="Final cover: They slept with cows" loading="lazy" decoding="async">
+        <span class="step__k">publish</span>
+        <h3>Scheduled through the API</h3>
+        <p>Title, chapters, sources, cover and AI disclosure set by the uploader, then it goes live on time.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- MIKS -->
+<section class="section miks" id="miks">
+  <div class="miks__copy">
+    <p class="eyebrow">Own product, since May 2026</p>
+    <h2 class="h2 reveal">Miks, the agent that runs it.</h2>
+    <p class="lead reveal">A desktop assistant on local models. It researches, writes code, runs the tools and checks its own answers. Every gate in it came from a real failure and is locked by a test.</p>
+    <dl class="figures reveal">
+      <div><dt>115k</dt><dd>lines of Python</dd></div>
+      <div><dt>2,300+</dt><dd>tests</dd></div>
+      <div><dt>37/37</dt><dd>tool-router benchmark</dd></div>
+      <div><dt>19k to 1.5k</dt><dd>tokens per request</dd></div>
+    </dl>
+    <a class="repo reveal" href="https://github.com/thepass3r/llm-tool-router" target="_blank" rel="noopener">
+      <i class="ph ph-github-logo"></i>
+      <span><strong>llm-tool-router</strong><small>The router, published on its own: benchmark, 24 tests, MIT.</small></span>
+      <i class="ph ph-arrow-up-right"></i>
+    </a>
+  </div>
+  <ol class="flow reveal" aria-label="How a request flows through Miks">
+    <li><span>Request</span><small>Russian or English, voice or text</small></li>
+    <li><span>Router</span><small>picks 9 to 12 of 100+ tools by the user's own words</small></li>
+    <li><span>ReAct loop</span><small>runs tools, executes generated code, retries on failure</small></li>
+    <li><span>Gates</span><small>reject answers that claim what the data never said</small></li>
+    <li><span>Answer</span><small>with the files it actually opened</small></li>
+  </ol>
+  <figure class="miks__shot reveal">
+    <img src="assets/img/miks_app.webp" alt="Miks desktop app: a question answered after two file reads, with the tool ledger on the right" loading="lazy" decoding="async" width="1800" height="1302">
+    <figcaption>A real run on a local gemma4 12B: two file reads, a correct count, 6.2 s. The ledger on the right logs every tool call the agent has made.</figcaption>
+  </figure>
+</section>
+
+<!-- VIBE -->
+<section class="section vibe" id="vibe">
+  <div class="vibe__head">
+    <h2 class="h2 reveal">Vibe coding, with guardrails.</h2>
+    <p class="lead reveal">Most of my code is written together with AI coding agents: Claude Code and my own Miks. I set the goal, review every diff and measure the result. Tests decide what ships.</p>
+  </div>
+  <div class="vibe__grid">
+    <div class="vstat reveal"><span class="vstat__n">648 of 737</span><p>commits in Miks made in a pair with an AI agent. The other 89 by hand.</p></div>
+    <div class="vstat reveal"><span class="vstat__n">2,300+</span><p>tests and a pre-commit hook. An agent's change that breaks one does not land.</p></div>
+    <div class="vstat reveal"><span class="vstat__n">19 vs 23</span><p>tool calls out of 35: a Russian prompt cost a small model real calls. Measured on a bench, then fixed.</p></div>
+    <div class="vstat reveal"><span class="vstat__n">20</span><p>design decisions written down as notes, so a rejected idea never gets proposed twice.</p></div>
+  </div>
+  <p class="vibe__note reveal"><i class="ph ph-lightning"></i>This page was built the same way: one afternoon, an agent at the keyboard, me deciding and checking every screen.</p>
+</section>
+
+<!-- STORE -->
+<section class="section store" id="store">
+  <div class="store__media reveal">
+    <figure class="store__phone">
+      <img src="assets/img/kt_app_home.webp" alt="Kiss and Tell Mini App home screen in Telegram" loading="lazy" decoding="async" width="750" height="1624">
+    </figure>
+    <div class="store__side">
+      <figure>
+        <div class="ba" style="--x:50%">
+          <img src="assets/img/kt_book.webp" alt="Generated scene: the book on a bedside table by candlelight" loading="lazy" decoding="async" width="900" height="1125">
+          <img class="ba__top" src="assets/img/kt_book_src.webp" alt="The supplier's original packshot of the same book" loading="lazy" decoding="async" width="900" height="1125">
+          <span class="ba__line" aria-hidden="true"><i class="ph ph-arrows-left-right"></i></span>
+          <input class="ba__range" type="range" min="0" max="100" value="50" aria-label="Compare the supplier photo with the generated scene">
+        </div>
+        <figcaption>Drag: supplier packshot, then the scene generated around it.</figcaption>
+      </figure>
+      <img src="assets/img/kt_cozy.webp" alt="Generated mood shot: coffee and a book on a bed" loading="lazy" decoding="async" width="900" height="1125">
+    </div>
+  </div>
+  <div class="store__copy">
+    <h2 class="h2 reveal">A store that lives in social feeds.</h2>
+    <p class="lead reveal">Kiss &amp; Tell, an adult wellness brand in Ukraine (18+). I built it alone: the shop, the content and the posting.</p>
+    <ul class="points reveal">
+      <li><i class="ph ph-storefront"></i><div><strong>Telegram Mini App</strong>9,316 products from a supplier export, cart, checkout, admin with click tracking. Runs 24/7 on Oracle Cloud.</div></li>
+      <li><i class="ph ph-images"></i><div><strong>Generated content</strong>Product photos and reels made locally from supplier shots, every frame checked by eye.</div></li>
+      <li><i class="ph ph-clock-countdown"></i><div><strong>Autoposting</strong>Three posts a day to Instagram, Threads and Facebook through the official Meta APIs.</div></li>
+    </ul>
+    <div class="bars reveal" aria-label="Threads views by post type">
+      <p class="bars__title">Threads views per post</p>
+      <div class="bar"><span class="bar__l">One-line question</span><span class="bar__v" style="--w:100%">117 to 460</span></div>
+      <div class="bar"><span class="bar__l">Product post</span><span class="bar__v" style="--w:3.5%">5 to 16</span></div>
+      <p class="bars__note">So the feed moved to conversation first. Click tracking then showed the next gap: the audience grows, store visits do not yet.</p>
+    </div>
+  </div>
+</section>
+
+<!-- KIRA -->
+<section class="section kira" id="kira">
+  <figure class="kira__video reveal">
+    <video src="assets/kira_outfit.mp4" poster="assets/img/kira_outfit.jpg" autoplay muted loop playsinline aria-label="Kira puts an outfit together, step by step"></video>
+  </figure>
+  <div class="kira__copy">
+    <h2 class="h2 reveal">Kira, a face that stays the same.</h2>
+    <p class="lead reveal">The store's brand ambassador is an AI character I designed: her face, body, apartment and even her phone are fixed references. She posts on Threads in her own voice and stars in the reels.</p>
+    <ul class="kira__facts reveal">
+      <li><strong>Reference-driven video</strong>MiniMax H3 with up to nine reference images: face, room, single garments. The wall and baseboard match to 2-3 px across separately rendered clips.</li>
+      <li><strong>Upscaled in latent space</strong>Drafted at 576x1024, upscaled to 1088x1920 in a second pass. Fits on the same 16 GB card.</li>
+      <li><strong>Her own LoRA, measured first</strong>Training on Qwen-Image peaks at 14.7 GB, so it runs locally without offloading.</li>
+    </ul>
+    <div class="kira__grid reveal">
+      <img src="assets/img/kira_calm.webp" alt="Kira at the window of her apartment at night" loading="lazy" decoding="async" width="720" height="886">
+      <img src="assets/img/kira_date.webp" alt="Kira in a cafe with two cups of cocoa" loading="lazy" decoding="async" width="720" height="886">
+      <img src="assets/img/kira_ritual.webp" alt="Kira's evening skincare selfie" loading="lazy" decoding="async" width="720" height="886">
+      <img src="assets/img/kira_care.webp" alt="Kira working on a laptop" loading="lazy" decoding="async" width="720" height="886">
+      <img src="assets/img/kira_loved.webp" alt="Kira with a cup of tea on the sofa" loading="lazy" decoding="async" width="720" height="886">
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery" aria-label="Frames generated on one GPU">
+  <h2 class="h2 gallery__title reveal">Made on a single RTX 5070 Ti.</h2>
+  <div class="marquee">
+    <div class="marquee__track">
+      <img src="assets/img/ill_donkey.webp" alt="" loading="lazy" decoding="async">
+      <img src="assets/img/mix_02.webp" alt="" loading="lazy" decoding="async">
+      <img src="assets/img/ill_rome_0.webp" alt="" loading="lazy" decoding="async">
+      <img src="assets/img/ill_beer.webp" alt="" loading="lazy" decoding="async">
+      <img src="assets/img/ill_age_0.webp" alt="" loading="lazy" decoding="async">
+      <img src="assets/img/mix_06.webp" alt="" loading="lazy" decoding="async">
+      <img src="assets/img/ill_athens_0.webp" alt="" loading="lazy" decoding="async">
+      <img src="assets/img/ill_fire.webp" alt="" loading="lazy" decoding="async">
+      <img src="assets/img/ill_tomb.webp" alt="" loading="lazy" decoding="async">
+      <img src="assets/img/mix_07.webp" alt="" loading="lazy" decoding="async">
+      <img src="assets/img/ill_london_0.webp" alt="" loading="lazy" decoding="async">
+      <img src="assets/img/mix_08.webp" alt="" loading="lazy" decoding="async">
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section exp">
+  <h2 class="h2 reveal">Before the pipelines.</h2>
+  <div class="exp__list">
+    <div class="job reveal"><span class="job__y">2025 - now</span><div><strong>Generative AI and automation engineer</strong><p>Own projects: video pipelines, Miks, the store, the channels.</p></div></div>
+    <div class="job reveal"><span class="job__y">2023 - 2026</span><div><strong>Creative designer, affiliate marketing company</strong><p>Performance creatives for Facebook Ads in a media-buying team, in-house and remote. Early AI video work.</p></div></div>
+    <div class="job reveal"><span class="job__y">2022 - now</span><div><strong>Motion designer, freelance</strong><p>Logo animation, After Effects templates, ad video. Earlier: motion, video and sound since 2017.</p></div></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <h2 class="foot__title reveal">Let's work together.</h2>
+  <p class="lead reveal">Open to remote roles and project collaborations: generative video, ComfyUI pipelines, content automation.</p>
+  <div class="foot__links reveal">
+    <a class="btn" href="https://t.me/th3passer" target="_blank" rel="noopener"><i class="ph ph-telegram-logo"></i>Message on Telegram</a>
+    <a class="link" href="mailto:thepass3r@gmail.com"><i class="ph ph-envelope-simple"></i>thepass3r@gmail.com</a>
+    <a class="link" href="https://github.com/thepass3r" target="_blank" rel="noopener"><i class="ph ph-github-logo"></i>github.com/thepass3r</a>
+    <a class="link" href="CV_Oleksandr_Zarutskyi_EN.pdf" download><i class="ph ph-file-arrow-down"></i>Download CV</a>
+  </div>
+  <p class="foot__meta">Kyiv region, Ukraine. Remote, written-first communication. Every illustration, cover and video on this page was generated on my own GPU.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="main.js?v=5"></script>
+</body>
+</html>
